@@ -1,0 +1,208 @@
+body{ font-family: 'poppins', sans-serif ;
+      max-width: 1280px ; margin: 0 auto 0;  
+            
+}
+
+body{
+     background-color: rgb(141, 138, 233);
+}
+
+body.modo-escuro{
+     background-color: black;
+     
+}
+
+
+
+header .imagem-botao{
+     height: 70px;
+     
+         
+     
+}
+header{
+     max-width: 10500px;
+     max-height: 1000px;
+}
+
+header{
+     background-image: url(../imagens/Pokemon-Hd-Wallpaper-2013.webp);
+     background-repeat: no-repeat;
+     background-size: cover;     
+     width: auto;
+     height: 700px ;
+     border-radius: 10px ; 
+     
+}
+
+header{             
+      display: flex;
+      justify-content: space-between; 
+}
+ header .logo ,
+ header .botao-altera{
+     width:30px ;
+     transition: 0.2s ease-in-out;
+ }
+
+ header #botao-alterar-tema{ background: none; border: none;
+ width: 80px;height: 40px; }
+
+ header .logo:hover,
+ header .imagem-botao:hover,
+ main .cartao-pokemon:hover{
+      transform: scale(1.30);
+      cursor: pointer;
+      transition: 0.5s;
+ }
+
+
+
+main{
+     padding: 30px;
+}    
+ 
+main .listagem-pokemon{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+}
+
+main .cartao-pokemon{    
+     width:230px;
+     padding:15px ;
+     display: flex; 
+     flex-direction: column;
+     align-items: center;
+     border-radius: 55px;
+     gap: 10px;
+     transition: 0.3s ease-in-out;
+     background-image: url(../imagens/pikachu.jpg);background-repeat: none;background-size: cover;
+}
+
+main .cartao-pokemon:hover{
+     border: 1px solid #ffffff;
+     border-radius: 10px;
+     font-family: 'poppins', sans-serif ;
+     color: #FFFFFF;
+     max-width: 1280px ; margin: 0 auto;
+     background-image: url(../imagens/screen-0.webp);
+     background-repeat: no-repeat;
+    
+}
+
+
+main .cartao-pokemon .informacoes,
+main .fraqueza{
+     display: flex;
+     justify-content: space-between;
+     border: 1px solid #333333;
+     border-radius: 10px;
+}
+
+main .cartao-pokemon .informacoes span{
+     padding: 5px;
+     text-transform: uppercase;
+     font-size: 17px;
+}
+
+main .cartao-pokemon .gif{
+     width: 90px;
+     height: 90px;
+}
+
+main .cartao-pokemon .tipos,
+main .fraqueza{
+     display: flex ;
+     gap: 10px;
+}
+
+main .cartao-pokemon .tipo,
+main .fraqueza{
+     padding: 8px;
+     border-radius: 10px;
+}
+
+.grama{
+     background-color: #7ac74c;
+
+}
+
+.veneno{
+     background-color: #df67ddfb;
+}
+
+.fogo{
+     background-color: #ee8130;
+}
+
+.agua{
+     background-color:#6390f0 ;
+}
+
+.inseto{
+     background-color: #a6b91a;
+}
+
+.fada{
+     background-color: #FFB6C1;
+}
+
+.normal{
+     background-color: #808080;
+}
+
+.voador{
+     background:linear-gradient(	#87CEEB 50%, #A9A9A9 50%) ;
+}
+
+.pedra{
+     background-color:	#B8860B;
+}
+
+.eletrico{
+     background-color: #FFD700;
+}
+
+.gelo{
+     background-color: #00BFFF;
+}
+
+.terra{
+     background: linear-gradient(	#DAA520 50%, #8B4513 50%);
+}
+
+.psiquico{
+     background-color: #FF1493;
+}
+
+.aco{
+     background-color: #C0C0C0;
+}
+
+.lutador{
+     background-color: #D2691E;
+}
+
+main .fraqueza{
+   display: inline-flex;
+   margin-bottom: 10px;
+}
+
+main .descricao{
+     max-height: 80px;
+     overflow-y: scroll;
+     font-size: 14px;
+     padding-right: 10px;
+}
+
+body.modo-escuro main .cartao-pokemon{
+     background-image: url(../imagens/ghostMD.png);
+     color: white;
+}
+
+body.modo-escuro main .cartao-pokemon:hover{
+     background-image: url(../imagens/pokeghost.jpg);
+
+}
+
